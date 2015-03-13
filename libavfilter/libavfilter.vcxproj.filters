@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="x86">
+      <UniqueIdentifier>{b0289040-c9a0-4262-8854-0c6382d610da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aeval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_adelay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_aecho.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_afade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_aformat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_amerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_amix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_anull.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_apad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_aphaser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_aresample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_asetnsamples.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_asetrate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_ashowinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_astats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_astreamsync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_atempo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_biquads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_channelmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_channelsplit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_compand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_earwax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_flanger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_join.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_pan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_replaygain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_silencedetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_silenceremove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_volume.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="af_volumedetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allfilters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asink_anullsink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asrc_anullsrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asrc_sine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avf_avectorscope.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avf_concat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avf_showcqt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avf_showspectrum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avf_showwaves.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avfiltergraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffersink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffersrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drawutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dualinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_ebur128.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_interleave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_perms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_select.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_sendcmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filtfmts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="formats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framesync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_wave_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphdump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lavfutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log2_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lswsutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_allkernels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setpts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="split.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src_movie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_alphamerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_aspect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_bbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_blackdetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_blackframe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_blend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_boxblur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_codecview.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_colorbalance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_colorchannelmixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_colormatrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_copy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_crop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_cropdetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_curves.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_dctdnoiz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_decimate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_dejudder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_delogo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_deshake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_drawbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_edgedetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_elbg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_extractplanes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_fade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_field.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_fieldmatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_fieldorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_format.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_fps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_framepack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_framestep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_geq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_gradfun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_hflip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_histeq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_histogram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_hqdn3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_hqx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_hue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_idet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_il.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_interlace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_kerndeint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_lenscorrection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_lut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_lut3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_mcdeint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_mergeplanes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_mp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_mpdecimate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_overlay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_owdenoise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_pad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_perspective.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_phase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_pixdesctest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_psnr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_pullup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_removelogo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_rotate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_sab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_scale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_separatefields.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_setfield.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_showinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_shuffleplanes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_signalstats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_smartblur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_spp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_stereo3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_super2xsai.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_swapuv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_telecine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_thumbnail.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_tile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_tinterlace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_transpose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_unsharp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_vflip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_vignette.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_w3fdif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_xbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_yadif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vf_zoompan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsink_nullsink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsrc_cellauto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsrc_life.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsrc_mandelbrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsrc_mptestsrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vsrc_testsrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\af_volume_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_gradfun_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_hqdn3d_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_idet_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_interlace_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_noise.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_pullup_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_spp.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_tinterlace_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+    <ClCompile Include="x86\vf_yadif_init.c">
+      <Filter>x86</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="af_volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asrc_abuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avcodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avfiltergraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bufferqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffersink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffersrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deshake_opencl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deshake_opencl_kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dualinput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framesync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_wave_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gradfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interlace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lavfutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lswsutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opencl_allkernels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinterlace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unsharp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unsharp_opencl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unsharp_opencl_kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_hqdn3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_idet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_pullup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_spp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vidstabutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yadif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="all_channel_layouts.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="libavfilter.pc" />
+    <None Include="libavfilter.v" />
+    <None Include="Makefile" />
+    <None Include="x86\Makefile">
+      <Filter>x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="avfilterres.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="x86\af_volume.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_gradfun.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_hqdn3d.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_idet.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_interlace.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_pullup.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_yadif.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\yadif-10.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\yadif-16.asm">
+      <Filter>x86</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

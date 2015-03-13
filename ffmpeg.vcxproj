@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6DABD53-B31B-4717-BA55-39AB03673F67}</ProjectGuid>
+    <RootNamespace>ffmpeg</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files (x86)\AMD APP SDK\2.9-1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(Configuration);C:\Program Files (x86)\AMD APP SDK\2.9-1\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vfw32.lib;strmiids.lib;ws2_32.lib;libavutil.lib;libswscale.lib;libswresample.lib;libavcodec.lib;libavformat.lib;libavfilter.lib;libavdevice.lib;opencl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include=".config" />
+    <None Include=".gitattributes" />
+    <None Include=".version" />
+    <None Include="arch.mak" />
+    <None Include="Changelog" />
+    <None Include="common.mak" />
+    <None Include="config.asm" />
+    <None Include="config.fate" />
+    <None Include="config.mak" />
+    <None Include="configure" />
+    <None Include="COPYING.GPLv2" />
+    <None Include="COPYING.GPLv3" />
+    <None Include="COPYING.LGPLv2.1" />
+    <None Include="COPYING.LGPLv3" />
+    <None Include="CREDITS" />
+    <None Include="INSTALL.md" />
+    <None Include="library.mak" />
+    <None Include="LICENSE.md" />
+    <None Include="MAINTAINERS" />
+    <None Include="Makefile" />
+    <None Include="README.md" />
+    <None Include="RELEASE" />
+    <None Include="RELEASE_NOTES" />
+    <None Include="VERSION" />
+    <None Include="version.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmdutils.c" />
+    <ClCompile Include="cmdutils_opencl.c" />
+    <ClCompile Include="ffmpeg.c" />
+    <ClCompile Include="ffmpeg_dxva2.c" />
+    <ClCompile Include="ffmpeg_filter.c" />
+    <ClCompile Include="ffmpeg_opt.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmdutils.h" />
+    <ClInclude Include="cmdutils_common_opts.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="ffmpeg.h" />
+    <ClInclude Include="ffserver_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.log" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

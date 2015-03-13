@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7E28E08-0A69-4843-B705-5C9546E1F115}</ProjectGuid>
+    <RootNamespace>libavdevice</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="alldevices.c" />
+    <ClCompile Include="avdevice.c" />
+    <ClCompile Include="dshow.c" />
+    <ClCompile Include="dshow_common.c" />
+    <ClCompile Include="dshow_enummediatypes.c" />
+    <ClCompile Include="dshow_enumpins.c" />
+    <ClCompile Include="dshow_filter.c" />
+    <ClCompile Include="dshow_pin.c" />
+    <ClCompile Include="file_open.c" />
+    <ClCompile Include="gdigrab.c" />
+    <ClCompile Include="lavfi.c" />
+    <ClCompile Include="timefilter.c" />
+    <ClCompile Include="vfwcap.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alsa-audio.h" />
+    <ClInclude Include="avdevice.h" />
+    <ClInclude Include="decklink_common.h" />
+    <ClInclude Include="decklink_common_c.h" />
+    <ClInclude Include="decklink_dec.h" />
+    <ClInclude Include="decklink_enc.h" />
+    <ClInclude Include="dshow_capture.h" />
+    <ClInclude Include="dv1394.h" />
+    <ClInclude Include="fbdev_common.h" />
+    <ClInclude Include="opengl_enc_shaders.h" />
+    <ClInclude Include="oss_audio.h" />
+    <ClInclude Include="pulse_audio_common.h" />
+    <ClInclude Include="sndio_common.h" />
+    <ClInclude Include="timefilter.h" />
+    <ClInclude Include="v4l2-common.h" />
+    <ClInclude Include="version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="avdeviceres.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="avfoundation.m" />
+    <None Include="libavdevice.pc" />
+    <None Include="libavdevice.v" />
+    <None Include="Makefile" />
+    <None Include="qtkit.m" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

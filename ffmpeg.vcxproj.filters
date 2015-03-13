@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".config" />
+    <None Include=".gitattributes" />
+    <None Include=".version" />
+    <None Include="arch.mak" />
+    <None Include="Changelog" />
+    <None Include="common.mak" />
+    <None Include="config.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="config.fate" />
+    <None Include="config.mak" />
+    <None Include="configure" />
+    <None Include="COPYING.GPLv2" />
+    <None Include="COPYING.GPLv3" />
+    <None Include="COPYING.LGPLv2.1" />
+    <None Include="COPYING.LGPLv3" />
+    <None Include="CREDITS" />
+    <None Include="INSTALL.md" />
+    <None Include="library.mak" />
+    <None Include="LICENSE.md" />
+    <None Include="MAINTAINERS" />
+    <None Include="Makefile" />
+    <None Include="README.md" />
+    <None Include="RELEASE" />
+    <None Include="RELEASE_NOTES" />
+    <None Include="VERSION" />
+    <None Include="version.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmdutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdutils_opencl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_dxva2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_opt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmdutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdutils_common_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffserver_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.log" />
+  </ItemGroup>
+</Project>

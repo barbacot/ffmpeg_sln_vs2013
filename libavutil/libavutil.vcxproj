@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adler32.c" />
+    <ClCompile Include="aes.c" />
+    <ClCompile Include="atomic.c" />
+    <ClCompile Include="audio_fifo.c" />
+    <ClCompile Include="avstring.c" />
+    <ClCompile Include="base64.c" />
+    <ClCompile Include="blowfish.c" />
+    <ClCompile Include="bprint.c" />
+    <ClCompile Include="buffer.c" />
+    <ClCompile Include="cast5.c" />
+    <ClCompile Include="channel_layout.c" />
+    <ClCompile Include="cpu.c" />
+    <ClCompile Include="crc.c" />
+    <ClCompile Include="des.c" />
+    <ClCompile Include="dict.c" />
+    <ClCompile Include="display.c" />
+    <ClCompile Include="downmix_info.c" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="eval.c" />
+    <ClCompile Include="fifo.c" />
+    <ClCompile Include="file.c" />
+    <ClCompile Include="file_open.c" />
+    <ClCompile Include="fixed_dsp.c" />
+    <ClCompile Include="float_dsp.c" />
+    <ClCompile Include="frame.c" />
+    <ClCompile Include="hash.c" />
+    <ClCompile Include="hmac.c" />
+    <ClCompile Include="imgutils.c" />
+    <ClCompile Include="integer.c" />
+    <ClCompile Include="intmath.c" />
+    <ClCompile Include="lfg.c" />
+    <ClCompile Include="lls.c" />
+    <ClCompile Include="log.c" />
+    <ClCompile Include="log2_tab.c" />
+    <ClCompile Include="lzo.c" />
+    <ClCompile Include="mathematics.c" />
+    <ClCompile Include="md5.c" />
+    <ClCompile Include="mem.c" />
+    <ClCompile Include="murmur3.c" />
+    <ClCompile Include="opencl.c" />
+    <ClCompile Include="opencl_internal.c" />
+    <ClCompile Include="opt.c" />
+    <ClCompile Include="parseutils.c" />
+    <ClCompile Include="pca.c" />
+    <ClCompile Include="pixdesc.c" />
+    <ClCompile Include="pixelutils.c" />
+    <ClCompile Include="random_seed.c" />
+    <ClCompile Include="rational.c" />
+    <ClCompile Include="rc4.c" />
+    <ClCompile Include="ripemd.c" />
+    <ClCompile Include="samplefmt.c" />
+    <ClCompile Include="sha.c" />
+    <ClCompile Include="sha512.c" />
+    <ClCompile Include="softfloat.c" />
+    <ClCompile Include="stereo3d.c" />
+    <ClCompile Include="threadmessage.c" />
+    <ClCompile Include="time.c" />
+    <ClCompile Include="timecode.c" />
+    <ClCompile Include="tree.c" />
+    <ClCompile Include="utf8.c" />
+    <ClCompile Include="utils.c" />
+    <ClCompile Include="x86\cpu.c" />
+    <ClCompile Include="x86\float_dsp_init.c" />
+    <ClCompile Include="x86\lls_init.c" />
+    <ClCompile Include="x86\pixelutils_init.c" />
+    <ClCompile Include="xga_font_data.c" />
+    <ClCompile Include="xtea.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adler32.h" />
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="atomic.h" />
+    <ClInclude Include="atomic_gcc.h" />
+    <ClInclude Include="atomic_suncc.h" />
+    <ClInclude Include="atomic_win32.h" />
+    <ClInclude Include="attributes.h" />
+    <ClInclude Include="audioconvert.h" />
+    <ClInclude Include="audio_fifo.h" />
+    <ClInclude Include="avassert.h" />
+    <ClInclude Include="avconfig.h" />
+    <ClInclude Include="avstring.h" />
+    <ClInclude Include="avutil.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="blowfish.h" />
+    <ClInclude Include="bprint.h" />
+    <ClInclude Include="bswap.h" />
+    <ClInclude Include="buffer.h" />
+    <ClInclude Include="buffer_internal.h" />
+    <ClInclude Include="cast5.h" />
+    <ClInclude Include="channel_layout.h" />
+    <ClInclude Include="colorspace.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="cpu.h" />
+    <ClInclude Include="cpu_internal.h" />
+    <ClInclude Include="crc.h" />
+    <ClInclude Include="des.h" />
+    <ClInclude Include="dict.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="downmix_info.h" />
+    <ClInclude Include="dynarray.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="eval.h" />
+    <ClInclude Include="ffversion.h" />
+    <ClInclude Include="fifo.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="fixed_dsp.h" />
+    <ClInclude Include="float_dsp.h" />
+    <ClInclude Include="frame.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="hmac.h" />
+    <ClInclude Include="imgutils.h" />
+    <ClInclude Include="integer.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="intfloat.h" />
+    <ClInclude Include="intmath.h" />
+    <ClInclude Include="intreadwrite.h" />
+    <ClInclude Include="lfg.h" />
+    <ClInclude Include="libm.h" />
+    <ClInclude Include="lls.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="lzo.h" />
+    <ClInclude Include="macros.h" />
+    <ClInclude Include="mathematics.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="mem.h" />
+    <ClInclude Include="motion_vector.h" />
+    <ClInclude Include="murmur3.h" />
+    <ClInclude Include="old_pix_fmts.h" />
+    <ClInclude Include="opencl.h" />
+    <ClInclude Include="opencl_internal.h" />
+    <ClInclude Include="opt.h" />
+    <ClInclude Include="parseutils.h" />
+    <ClInclude Include="pca.h" />
+    <ClInclude Include="pixdesc.h" />
+    <ClInclude Include="pixelutils.h" />
+    <ClInclude Include="pixfmt.h" />
+    <ClInclude Include="qsort.h" />
+    <ClInclude Include="random_seed.h" />
+    <ClInclude Include="rational.h" />
+    <ClInclude Include="rc4.h" />
+    <ClInclude Include="replaygain.h" />
+    <ClInclude Include="ripemd.h" />
+    <ClInclude Include="samplefmt.h" />
+    <ClInclude Include="sha.h" />
+    <ClInclude Include="sha512.h" />
+    <ClInclude Include="softfloat.h" />
+    <ClInclude Include="stereo3d.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="threadmessage.h" />
+    <ClInclude Include="time.h" />
+    <ClInclude Include="timecode.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="timestamp.h" />
+    <ClInclude Include="time_internal.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="wchar_filename.h" />
+    <ClInclude Include="x86\asm.h" />
+    <ClInclude Include="x86\bswap.h" />
+    <ClInclude Include="x86\cpu.h" />
+    <ClInclude Include="x86\emms.h" />
+    <ClInclude Include="x86\intreadwrite.h" />
+    <ClInclude Include="x86\pixelutils.h" />
+    <ClInclude Include="x86\timer.h" />
+    <ClInclude Include="x86\w64xmmtest.h" />
+    <ClInclude Include="x86_cpu.h" />
+    <ClInclude Include="xga_font_data.h" />
+    <ClInclude Include="xtea.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="avutilres.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libavutil.pc" />
+    <None Include="libavutil.v" />
+    <None Include="Makefile" />
+    <None Include="x86\Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="x86\cpuid.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\emms.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\float_dsp.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\lls.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\pixelutils.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <None Include="x86\x86inc.asm">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="x86\x86util.asm">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{896EA4C0-EFAC-4EC1-8DBE-7C77DD23C18F}</ProjectGuid>
+    <RootNamespace>libavutil</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

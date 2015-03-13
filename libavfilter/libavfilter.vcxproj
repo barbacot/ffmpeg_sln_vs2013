@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aeval.c" />
+    <ClCompile Include="af_adelay.c" />
+    <ClCompile Include="af_aecho.c" />
+    <ClCompile Include="af_afade.c" />
+    <ClCompile Include="af_aformat.c" />
+    <ClCompile Include="af_amerge.c" />
+    <ClCompile Include="af_amix.c" />
+    <ClCompile Include="af_anull.c" />
+    <ClCompile Include="af_apad.c" />
+    <ClCompile Include="af_aphaser.c" />
+    <ClCompile Include="af_aresample.c" />
+    <ClCompile Include="af_asetnsamples.c" />
+    <ClCompile Include="af_asetrate.c" />
+    <ClCompile Include="af_ashowinfo.c" />
+    <ClCompile Include="af_astats.c" />
+    <ClCompile Include="af_astreamsync.c" />
+    <ClCompile Include="af_atempo.c" />
+    <ClCompile Include="af_biquads.c" />
+    <ClCompile Include="af_channelmap.c" />
+    <ClCompile Include="af_channelsplit.c" />
+    <ClCompile Include="af_compand.c" />
+    <ClCompile Include="af_earwax.c" />
+    <ClCompile Include="af_flanger.c" />
+    <ClCompile Include="af_join.c" />
+    <ClCompile Include="af_pan.c" />
+    <ClCompile Include="af_replaygain.c" />
+    <ClCompile Include="af_silencedetect.c" />
+    <ClCompile Include="af_silenceremove.c" />
+    <ClCompile Include="af_volume.c" />
+    <ClCompile Include="af_volumedetect.c" />
+    <ClCompile Include="allfilters.c" />
+    <ClCompile Include="asink_anullsink.c" />
+    <ClCompile Include="asrc_anullsrc.c" />
+    <ClCompile Include="asrc_sine.c" />
+    <ClCompile Include="audio.c" />
+    <ClCompile Include="avcodec.c" />
+    <ClCompile Include="avfilter.c" />
+    <ClCompile Include="avfiltergraph.c" />
+    <ClCompile Include="avf_avectorscope.c" />
+    <ClCompile Include="avf_concat.c" />
+    <ClCompile Include="avf_showcqt.c" />
+    <ClCompile Include="avf_showspectrum.c" />
+    <ClCompile Include="avf_showwaves.c" />
+    <ClCompile Include="bbox.c" />
+    <ClCompile Include="buffer.c" />
+    <ClCompile Include="buffersink.c" />
+    <ClCompile Include="buffersrc.c" />
+    <ClCompile Include="drawutils.c" />
+    <ClCompile Include="dualinput.c" />
+    <ClCompile Include="fifo.c" />
+    <ClCompile Include="filtfmts.c" />
+    <ClCompile Include="formats.c" />
+    <ClCompile Include="framesync.c" />
+    <ClCompile Include="f_ebur128.c" />
+    <ClCompile Include="f_interleave.c" />
+    <ClCompile Include="f_perms.c" />
+    <ClCompile Include="f_select.c" />
+    <ClCompile Include="f_sendcmd.c" />
+    <ClCompile Include="generate_wave_table.c" />
+    <ClCompile Include="graphdump.c" />
+    <ClCompile Include="graphparser.c" />
+    <ClCompile Include="lavfutils.c" />
+    <ClCompile Include="log2_tab.c" />
+    <ClCompile Include="lswsutils.c" />
+    <ClCompile Include="opencl_allkernels.c" />
+    <ClCompile Include="pthread.c" />
+    <ClCompile Include="setpts.c" />
+    <ClCompile Include="settb.c" />
+    <ClCompile Include="split.c" />
+    <ClCompile Include="src_movie.c" />
+    <ClCompile Include="transform.c" />
+    <ClCompile Include="trim.c" />
+    <ClCompile Include="vf_alphamerge.c" />
+    <ClCompile Include="vf_aspect.c" />
+    <ClCompile Include="vf_bbox.c" />
+    <ClCompile Include="vf_blackdetect.c" />
+    <ClCompile Include="vf_blackframe.c" />
+    <ClCompile Include="vf_blend.c" />
+    <ClCompile Include="vf_boxblur.c" />
+    <ClCompile Include="vf_codecview.c" />
+    <ClCompile Include="vf_colorbalance.c" />
+    <ClCompile Include="vf_colorchannelmixer.c" />
+    <ClCompile Include="vf_colormatrix.c" />
+    <ClCompile Include="vf_copy.c" />
+    <ClCompile Include="vf_crop.c" />
+    <ClCompile Include="vf_cropdetect.c" />
+    <ClCompile Include="vf_curves.c" />
+    <ClCompile Include="vf_dctdnoiz.c" />
+    <ClCompile Include="vf_decimate.c" />
+    <ClCompile Include="vf_dejudder.c" />
+    <ClCompile Include="vf_delogo.c" />
+    <ClCompile Include="vf_deshake.c" />
+    <ClCompile Include="vf_drawbox.c" />
+    <ClCompile Include="vf_edgedetect.c" />
+    <ClCompile Include="vf_elbg.c" />
+    <ClCompile Include="vf_extractplanes.c" />
+    <ClCompile Include="vf_fade.c" />
+    <ClCompile Include="vf_field.c" />
+    <ClCompile Include="vf_fieldmatch.c" />
+    <ClCompile Include="vf_fieldorder.c" />
+    <ClCompile Include="vf_format.c" />
+    <ClCompile Include="vf_fps.c" />
+    <ClCompile Include="vf_framepack.c" />
+    <ClCompile Include="vf_framestep.c" />
+    <ClCompile Include="vf_geq.c" />
+    <ClCompile Include="vf_gradfun.c" />
+    <ClCompile Include="vf_hflip.c" />
+    <ClCompile Include="vf_histeq.c" />
+    <ClCompile Include="vf_histogram.c" />
+    <ClCompile Include="vf_hqdn3d.c" />
+    <ClCompile Include="vf_hqx.c" />
+    <ClCompile Include="vf_hue.c" />
+    <ClCompile Include="vf_idet.c" />
+    <ClCompile Include="vf_il.c" />
+    <ClCompile Include="vf_interlace.c" />
+    <ClCompile Include="vf_kerndeint.c" />
+    <ClCompile Include="vf_lenscorrection.c" />
+    <ClCompile Include="vf_lut.c" />
+    <ClCompile Include="vf_lut3d.c" />
+    <ClCompile Include="vf_mcdeint.c" />
+    <ClCompile Include="vf_mergeplanes.c" />
+    <ClCompile Include="vf_mp.c" />
+    <ClCompile Include="vf_mpdecimate.c" />
+    <ClCompile Include="vf_noise.c" />
+    <ClCompile Include="vf_null.c" />
+    <ClCompile Include="vf_overlay.c" />
+    <ClCompile Include="vf_owdenoise.c" />
+    <ClCompile Include="vf_pad.c" />
+    <ClCompile Include="vf_perspective.c" />
+    <ClCompile Include="vf_phase.c" />
+    <ClCompile Include="vf_pixdesctest.c" />
+    <ClCompile Include="vf_psnr.c" />
+    <ClCompile Include="vf_pullup.c" />
+    <ClCompile Include="vf_removelogo.c" />
+    <ClCompile Include="vf_rotate.c" />
+    <ClCompile Include="vf_sab.c" />
+    <ClCompile Include="vf_scale.c" />
+    <ClCompile Include="vf_separatefields.c" />
+    <ClCompile Include="vf_setfield.c" />
+    <ClCompile Include="vf_showinfo.c" />
+    <ClCompile Include="vf_shuffleplanes.c" />
+    <ClCompile Include="vf_signalstats.c" />
+    <ClCompile Include="vf_smartblur.c" />
+    <ClCompile Include="vf_spp.c" />
+    <ClCompile Include="vf_stereo3d.c" />
+    <ClCompile Include="vf_super2xsai.c" />
+    <ClCompile Include="vf_swapuv.c" />
+    <ClCompile Include="vf_telecine.c" />
+    <ClCompile Include="vf_thumbnail.c" />
+    <ClCompile Include="vf_tile.c" />
+    <ClCompile Include="vf_tinterlace.c" />
+    <ClCompile Include="vf_transpose.c" />
+    <ClCompile Include="vf_unsharp.c" />
+    <ClCompile Include="vf_vflip.c" />
+    <ClCompile Include="vf_vignette.c" />
+    <ClCompile Include="vf_w3fdif.c" />
+    <ClCompile Include="vf_xbr.c" />
+    <ClCompile Include="vf_yadif.c" />
+    <ClCompile Include="vf_zoompan.c" />
+    <ClCompile Include="video.c" />
+    <ClCompile Include="vsink_nullsink.c" />
+    <ClCompile Include="vsrc_cellauto.c" />
+    <ClCompile Include="vsrc_life.c" />
+    <ClCompile Include="vsrc_mandelbrot.c" />
+    <ClCompile Include="vsrc_mptestsrc.c" />
+    <ClCompile Include="vsrc_testsrc.c" />
+    <ClCompile Include="x86\af_volume_init.c" />
+    <ClCompile Include="x86\vf_gradfun_init.c" />
+    <ClCompile Include="x86\vf_hqdn3d_init.c" />
+    <ClCompile Include="x86\vf_idet_init.c" />
+    <ClCompile Include="x86\vf_interlace_init.c" />
+    <ClCompile Include="x86\vf_noise.c" />
+    <ClCompile Include="x86\vf_pullup_init.c" />
+    <ClCompile Include="x86\vf_spp.c" />
+    <ClCompile Include="x86\vf_tinterlace_init.c" />
+    <ClCompile Include="x86\vf_yadif_init.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="af_volume.h" />
+    <ClInclude Include="asrc_abuffer.h" />
+    <ClInclude Include="audio.h" />
+    <ClInclude Include="avcodec.h" />
+    <ClInclude Include="avfilter.h" />
+    <ClInclude Include="avfiltergraph.h" />
+    <ClInclude Include="bbox.h" />
+    <ClInclude Include="bufferqueue.h" />
+    <ClInclude Include="buffersink.h" />
+    <ClInclude Include="buffersrc.h" />
+    <ClInclude Include="deshake.h" />
+    <ClInclude Include="deshake_opencl.h" />
+    <ClInclude Include="deshake_opencl_kernel.h" />
+    <ClInclude Include="drawutils.h" />
+    <ClInclude Include="dualinput.h" />
+    <ClInclude Include="formats.h" />
+    <ClInclude Include="framesync.h" />
+    <ClInclude Include="generate_wave_table.h" />
+    <ClInclude Include="gradfun.h" />
+    <ClInclude Include="interlace.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="lavfutils.h" />
+    <ClInclude Include="lswsutils.h" />
+    <ClInclude Include="opencl_allkernels.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="tinterlace.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="unsharp.h" />
+    <ClInclude Include="unsharp_opencl.h" />
+    <ClInclude Include="unsharp_opencl_kernel.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="vf_hqdn3d.h" />
+    <ClInclude Include="vf_idet.h" />
+    <ClInclude Include="vf_noise.h" />
+    <ClInclude Include="vf_pullup.h" />
+    <ClInclude Include="vf_spp.h" />
+    <ClInclude Include="video.h" />
+    <ClInclude Include="vidstabutils.h" />
+    <ClInclude Include="yadif.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="all_channel_layouts.inc" />
+    <None Include="libavfilter.pc" />
+    <None Include="libavfilter.v" />
+    <None Include="Makefile" />
+    <CustomBuild Include="x86\af_volume.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <None Include="x86\Makefile" />
+    <CustomBuild Include="x86\vf_gradfun.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_hqdn3d.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_idet.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_interlace.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_pullup.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\vf_yadif.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\yadif-10.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="x86\yadif-16.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -f win32 -DPREFIX -P ..\config.asm -o $(IntDir)%(RelativeDir)\%(Filename).obj -i $(SolutionDir)/ -i $(ProjectDir)/x86 %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(RelativeDir)\%(Filename).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="avfilterres.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6304A66D-1365-4A83-9032-6DB19E8D1A6F}</ProjectGuid>
+    <RootNamespace>libavfilter</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

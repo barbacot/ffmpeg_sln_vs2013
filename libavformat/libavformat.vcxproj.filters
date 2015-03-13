@@ -1,0 +1,1438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="4xm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aacdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ac3dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="act.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adtsenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adxdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="afc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aiffdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aiffenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allformats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="amr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ape.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apetag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apngdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aqtitledec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asfcrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asfenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="astdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="astenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="au.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audiointerleave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avidec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avienc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aviobuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avisynth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avlanguage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bethsoftvid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bfi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bintext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boadec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="brstm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c93.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="caf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cavsvideodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdxl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cinedec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concatdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crcenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dashenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_uri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dauddec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daudenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dfa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diracdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dnxhddec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsicin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtsdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtshddec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eacdata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="electronicarts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="epafdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmetadec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmetaenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filmstripdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filmstripenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flac_picture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flacdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flacenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flacenc_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="format.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framecrcenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framehash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g722.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g723_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g729dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gifdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="golomb_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gopher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gsmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gxf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gxfenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h261dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h263dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h264dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdsenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hevcdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hlsenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hlsproto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hnm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpauth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icecast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icoenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="id3v1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="id3v2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="id3v2enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idcin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idroqdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idroqenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ilbc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img2_alias_pix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img2_brender_pix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img2dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img2enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ingenientdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ipmovie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ircam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ircamdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ircamenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iv8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ivfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ivfenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jacosubdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jacosubenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="latmenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lmlm4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loasdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log2_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lrcdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lrcenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lxfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="m4vdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matroska.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matroskadec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matroskaenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5proto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mgsts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microdvddec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microdvdenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkvtimestamp_v2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mlvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmsh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mov.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mov_chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movenchint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpc8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegtsenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegvideodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpl2dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpsubdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msnwc_tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mtv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mvi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mxf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mxfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mxfenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mxg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="network.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nistspheredec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nsvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nullenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nutdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nutenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nuv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsecelt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsedirac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparseflac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparseogm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparseopus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparseskeleton.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsespeex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsetheora.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsevorbis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oggparsevp8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="omadec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="omaenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="os_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcmenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjsdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pmpdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="psxstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pva.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pvfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rawdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rawenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rawvideodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="realtextdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="redspark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="replaygain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="riff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="riffdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="riffenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rmenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rmsipr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rsodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rsoenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmphttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmppkt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmpproto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_amr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_asf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_g726.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_h261.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_h263.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_h263_rfc2190.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_h264.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_hevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_ilbc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_latm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_mpeg4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_mpeg12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_mpegts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_qcelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_qdm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_qt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_svq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_vp8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpdec_xiph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_aac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_amr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_chain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_h261.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_h263.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_h263_rfc2190.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_h264.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_hevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_latm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_mpv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_vp8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpenc_xiph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtpproto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samidec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sapdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sapenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sauce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbgdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="segafilm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="segment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sierravmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="siff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smacker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smjpegdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smjpegenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smoothstreamingenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soxdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soxenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spdif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spdifdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spdifenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srtdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srtenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srtpproto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stldec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subtitles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subviewer1dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subviewerdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="supdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swfdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swfenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="takdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tedcaptionsdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiertexseq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tty.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="txd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uncodedframecrcenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="url.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urldecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vc1test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vc1testenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vivo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vocdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vocenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vorbiscomment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vplayerdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wavdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wavenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wc3movie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webmdashenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webpenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webvttdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webvttenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="westwood_aud.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="westwood_vqa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wtv_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wtvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wtvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wvdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xwma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yuv4mpegdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yuv4mpegenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apetag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asfcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audiointerleave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avio_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avlanguage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="caf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flac_picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flacenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gxf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpauth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="id3v1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="id3v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="img2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ircam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matroska.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mov_chan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mxf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oggdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpalette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rawdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rawenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rdt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="replaygain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="riff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rmsipr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmpcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmpdh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmppkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpdec_formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpenc_chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpproto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sauce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spdif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subtitles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="url.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urldecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="voc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbiscomment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wtv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yuv4mpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="avformatres.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libavformat.pc" />
+    <None Include="libavformat.v" />
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>
