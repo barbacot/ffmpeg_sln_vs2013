@@ -29,8 +29,8 @@ Prerequisites
 	pacman -S yasm
 at the mingw prompt. That should install the yasm package and produce yasm.exe in C:\msys32\usr\bin (depending on your msys directory)
 
-- You should have OpenCL SDK for your CPU. For AMD, you need AMD APP SDK. For Intel, the equivalent, don't ask me.
-- After having it installed, go to the Property Manager of VS2013 and open the property page Microsoft.Cpp.Win32.user and ensure the following paths point to your AMD APP SDK (or Intel equivalent):
+- You should have OpenCL SDK for your CPU (e.g. AMD APP SDK).
+- After having it installed, go to the Property Manager of VS2013 and open the property page Microsoft.Cpp.Win32.user and ensure the following paths point to your AMD APP SDK:
 	- VC++ Directories
 		-> Include Directories = ..;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;$(IncludePath)
 		-> Library Directories = C:\Program Files (x86)\AMD APP SDK\2.9-1\lib\x86;$(LibraryPath)
